@@ -1,0 +1,6 @@
+project: savantenvs/leveldb
+target: fuzz-db-buggy-mhh-run-15
+# origin: https://app.mayhem.security/mayhemheroes/leveldb/fuzz-db/15
+cmds:
+  - cmd: /mayhem/fuzz_db
+    libfuzzer: true
